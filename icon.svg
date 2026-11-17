@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2a2d31"/><stop offset="1" stop-color="#121315"/></linearGradient>
+    <linearGradient id="shell" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#e8590c"/><stop offset=".5" stop-color="#ff9a4d"/><stop offset="1" stop-color="#d9480f"/></linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="0" fill="url(#bg)"/>
+  <!-- baguettes -->
+  <g stroke-linecap="round">
+    <line x1="120" y1="96" x2="268" y2="250" stroke="#f1e3c8" stroke-width="20"/>
+    <line x1="392" y1="96" x2="244" y2="250" stroke="#f1e3c8" stroke-width="20"/>
+    <circle cx="120" cy="96" r="15" fill="#f1e3c8"/><circle cx="392" cy="96" r="15" fill="#f1e3c8"/>
+  </g>
+  <!-- caisse claire -->
+  <path d="M120 282 v104 a136 40 0 0 0 272 0 v-104z" fill="url(#shell)"/>
+  <g stroke="#7a2e06" stroke-width="7" opacity=".55">
+    <line x1="150" y1="300" x2="150" y2="408"/><line x1="200" y1="312" x2="200" y2="422"/><line x1="256" y1="316" x2="256" y2="426"/><line x1="312" y1="312" x2="312" y2="422"/><line x1="362" y1="300" x2="362" y2="408"/>
+  </g>
+  <ellipse cx="256" cy="282" rx="136" ry="40" fill="#fbfaf6" stroke="#c9c2b4" stroke-width="8"/>
+  <path d="M120 386 a136 40 0 0 0 272 0" fill="none" stroke="#c9c2b4" stroke-width="10"/>
+</svg>
