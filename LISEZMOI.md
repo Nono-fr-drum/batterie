@@ -10,7 +10,7 @@
 7. Dans Authentication, va dans **Paramètres**, puis **Domaines autorisés**, et ajoute `TONPSEUDO.github.io`.
 
 ## 2. GitHub Pages (hébergement gratuit)
-1. Crée un dépôt public, par exemple `batterie`, et mets-y tous les fichiers de ce dossier.
+1. Crée un dépôt public, par exemple `batterie`, et mets-y tous les fichiers de ce dossier (il n y a aucun sous-dossier).
 2. Va dans Settings, puis Pages, puis Source : « Deploy from a branch », branche `main`, dossier `/ (root)`.
 3. L'appli est en ligne sur `https://TONPSEUDO.github.io/batterie/`.
 

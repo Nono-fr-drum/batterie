@@ -1,8 +1,8 @@
 // Service worker : garde l'appli en cache pour qu'elle marche hors connexion.
-const CACHE = "batterie-93991287";
+const CACHE = "batterie-flat1";
 const FILES = ["./", "index.html", "manifest.webmanifest", "firebase-config.js", "favicon.ico",
-  "vendor/vexflow.js", "vendor/firebase.js",
-  "icons/icon-192.png", "icons/icon-512.png", "icons/maskable-512.png", "icons/apple-touch-icon.png"];
+  "vexflow.js", "firebase.js",
+  "icon-192.png", "icon-512.png", "maskable-512.png", "apple-touch-icon.png"];
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES)).then(() => self.skipWaiting()));
 });
